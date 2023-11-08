@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>Formulario de Contacto</title>
+    <Meta charset="utf-8">
+    <link rel="stylesheet" href="css/estilocontacto.css">
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <table>
+            <tr>
+                <td class="nombre"><label>Nombre: </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td class="nombre"><label>Email:</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr> 
+                <td class="nombre"><label>En que puedo ayudarte:</label></td>
+                <td><textarea rows="5" cols="21"></textarea></td>
+            </tr> 
+            <tr> 
+                <td class="nombre"><label id="sexo">Sexo:</label></td>
+                <td><input type="radio" name="Masculino" value="Masculino"><label>Masculino:</label><input type="radio" name="Femenino" value="Femenino"><label>Femenino:</label></td>
+            </tr>
+            <tr>
+                <td class="nombre"><label>Habitos alimenticios</label></td>
+                <td><input type="checkbox" name="Rojo">
+                <label>Vegetariano/a</label><br>
+                <input type="checkbox" name="Verde">
+                <label>Omnivoro/a</label><br>
+                <input type="checkbox" name="Azul">
+                <label>Disfrutariano/a</label><br></td>
+            </tr>
+            <tr>
+                <td><Label class="nombre">Acepto los terminos</Label></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="2"><input type="submit" class="boton" name="Enviar" value="Enviar">
+                                <input type="reset" class="boton" name="Limpiar" value="Limpiar">
+                </td>
+                <td></td>
+            </tr>
+        </table>
+        <footer>
+            Jose Antonio Muñoz Sarmiento &#169
+        </footer>
+</body>
+</html>

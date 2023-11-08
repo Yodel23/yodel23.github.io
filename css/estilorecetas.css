@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-color:rgb(140, 62, 195);
+}
+img{
+    height: 450px;
+    width: 450px;
+}
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto;
+    border: silver 27px solid;
+    border-image-source: url(../img/bordevegano.jpg);
+    border-image-slice: 40;
+    border-width: 50px 80px 50px 80px;
+}
+hr{
+    height: 10px;
+    background-color: greenyellow;
+    width: 95%;
+    
+}
+#fotoizqui{
+    margin-top: 20px;
+    width: 30%;
+    float: left;
+    padding: 10px;
+   
+}
+#fotocentro{
+    width: 30%;
+    float: right;
+    padding-left: 40px;
+    
+}
+#fotoderecha{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.recetacrepe{
+    margin-top: 15px;
+    font-family: 'Comic Sans MS';
+    padding: 20px;
+}
+.recetacopa{
+    margin-top: 25px;
+    font-family: 'Comic Sans MS';
+    padding-left: 20px;
+}
+.recetatarta{
+    font-family: 'Comic Sans MS';
+    padding: 20px;
+}
+footer{
+    padding-right: 40px;
+    text-align: right;
+}

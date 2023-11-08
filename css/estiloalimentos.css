@@ -1,0 +1,164 @@
+body{
+    background-color:rgb(140, 62, 195);
+ }
+h1{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto;
+    border: silver 27px solid;
+    border-image-source: url(../img/bordevegano.jpg);
+    border-image-slice: 40;
+    border-width: 50px 80px 50px 80px;
+
+}
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Comic Sans MS'
+}
+.menu{
+    text-align: center;
+}
+#principal{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#catalogo{
+    text-align: center;
+}
+a{
+    font-family: Verdana, Arial;
+    color: #000;
+    background-color: #81DAF5;
+    border: 1px solid #0431B4;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(233, 11, 11);
+    background-color:rgba(131, 200, 101, 0.711);
+}
+a:visited{
+    background-color: orange
+}
+.contenido{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+#mango {
+    font-family: 'Comic Sans MS';
+    padding: 5px;
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+#aguacate{
+    font-family: 'Comic Sans MS';
+    padding: 5px;
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+#piña{
+    font-family: 'Comic Sans MS';
+    padding: 5px;
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+#coco{
+    font-family: 'Comic Sans MS';
+    padding: 5px;
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+#papaya{
+    font-family: 'Comic Sans MS';
+    padding: 5px;
+    width: 800px;
+    height: 500px;
+    background-color: greenyellow;
+}
+#imgmango{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#imgmangodere{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+#imgaguacate{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#imgaguacatedere{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+#imgpiña{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#imgpiñadere{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+#imgcoco{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#imgpalmera{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+#imgpapaya{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#imgpapayadere{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+footer{
+    padding-right: 40px;
+    text-align: right;
+}
